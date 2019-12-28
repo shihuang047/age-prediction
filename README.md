@@ -1,6 +1,6 @@
 Human skin, oral, and gut microbiomes predict chronological age
 -----------------------
-This study performed Random Forest regression analyses of human microbiota from multiple body sites.
+This study performed Random Forest regression analyses of human microbiota from multiple body sites (gut, mouth and skin).
 
 ## What is this repository?
 
