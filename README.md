@@ -1,10 +1,10 @@
 Human skin, oral, and gut microbiomes predict chronological age
 -----------------------
 This study performed Random Forest regression analyses of human microbiota from multiple body sites (gut, mouth and skin).
+This repository included source codes for generation of all results in the manuscript.
+
 
 ## The data resource and cohort characteristics
-
-This repository included source codes for generation of all results in this meta-analysis study.
 ### Qiita study IDs involved in the meta-analysis: 
 * Gut microbiota:
 [10317](https://qiita.ucsd.edu/study/description/10317),
@@ -13,12 +13,12 @@ This repository included source codes for generation of all results in this meta
 550, 1841, 1774, 2010, 2024, 2136, 10317, 11052, 10052
 * Skin microbiota:
 1841, 2010, 10317, 11052
+### The age distribution of all samples in gut, oral and skin datasets: 
 
-There are some other R scripts and files in this repository that were used in
-the process of preparing the manuscript, also. Here I'll try to explain some of
-these.
 
 ## R scripts
+There are some other R scripts and files in this repository that were used in the process of preparing the manuscript, also. Here I'll try to explain some of these.
+
 #### Usage requirements and dependencies
 This meta-analysis depends on the self-developed R package [`crossRanger`](https://github.com/shihuang047/crossRanger) that can be downloaded as following.
 ``` r 
