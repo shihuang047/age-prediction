@@ -25,13 +25,14 @@ This meta-analysis depends on the self-developed R package [`crossRanger`](https
 devtools::install_github('shihuang047/crossRanger')
 ```
 
-## About the `input/` folder
+
+## About the `Input/` folder
 
 
-## About the `output/` folder
+## About the `Output/` folder
 
 
-## About the `figures/` folder
+## About the `Figures/` folder
 
 ## Acknowledgements
 
