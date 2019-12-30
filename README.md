@@ -19,7 +19,7 @@ the process of preparing the manuscript, also. Here I'll try to explain some of
 these.
 
 ## R scripts
-The meta-analysis will dependent on the self-developed R package [`crossRanger`](https://github.com/shihuang047/crossRanger).
+This meta-analysis depends on the self-developed R package [`crossRanger`](https://github.com/shihuang047/crossRanger).
 ``` r 
 ## install.packages('devtools') # if devtools not installed
 devtools::install_github('shihuang047/crossRanger')
