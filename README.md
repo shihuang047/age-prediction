@@ -5,7 +5,7 @@ This study performed Random Forest regression analyses of human microbiota from 
 ## What is this repository?
 
 This repository included source codes for generation of all results in this meta-analysis study.
-Qiita study IDs involved in the meta-analysis: 
+### Qiita study IDs involved in the meta-analysis: 
 * Gut microbiota:
 [10317](https://qiita.ucsd.edu/study/description/10317),
 [11757](https://qiita.ucsd.edu/study/description/11757)
