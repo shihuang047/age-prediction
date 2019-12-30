@@ -2,7 +2,7 @@ Human skin, oral, and gut microbiomes predict chronological age
 -----------------------
 This study performed Random Forest regression analyses of human microbiota from multiple body sites (gut, mouth and skin).
 
-## The data source and cohort characteristics in this meta-analysis
+## The data resource and cohort characteristics
 
 This repository included source codes for generation of all results in this meta-analysis study.
 ### Qiita study IDs involved in the meta-analysis: 
@@ -18,14 +18,14 @@ There are some other R scripts and files in this repository that were used in
 the process of preparing the manuscript, also. Here I'll try to explain some of
 these.
 
-## R scripts for the meta-analysis
-### Usage requirements and dependencies
+## R scripts
+#### Usage requirements and dependencies
 This meta-analysis depends on the self-developed R package [`crossRanger`](https://github.com/shihuang047/crossRanger) that can be downloaded as following.
 ``` r 
 ## install.packages('devtools') # if devtools not installed
 devtools::install_github('shihuang047/crossRanger')
 ```
-### What analysis has been done by R script `Age.crossRF_reg.ranger.R`?
+#### What analysis has been done by R script `Age.crossRF_reg.ranger.R`?
 The R script `Age.crossRF_reg.ranger.R` performs the meta-analysis of microbiota data from gut, mouth and skin. For each dataset, the main analyzing processes here include: 
 (1) data trimming (such as sample filtering by NA values in the metadata) 
 (2) RF modeling and performance evaluation for the whole dataset 
