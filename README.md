@@ -18,20 +18,21 @@ There are some other R scripts and files in this repository that were used in
 the process of preparing the manuscript, also. Here I'll try to explain some of
 these.
 
-## R scripts
+## R scripts for the meta-analysis
+### Usage requirements and dependencies
 This meta-analysis depends on the self-developed R package [`crossRanger`](https://github.com/shihuang047/crossRanger) that can be downloaded as following.
 ``` r 
 ## install.packages('devtools') # if devtools not installed
 devtools::install_github('shihuang047/crossRanger')
 ```
-### R script `Age.crossRF_reg.ranger.R`
+### What analysis has been done by R script `Age.crossRF_reg.ranger.R`?
 The R script `Age.crossRF_reg.ranger.R` performs the meta-analysis of microbiota data from gut, mouth and skin. For each dataset, the main analyzing processes here include: 
 (1) data trimming (such as sample filtering by NA values in the metadata) 
 (2) RF modeling and performance evaluation for the whole dataset 
 (3) RF modeling and performance evaluation for the sub-datasets To test if confounders (such as sex) affected the modeling, we first trained the age model within a sub-dataset stratified by a confounder, then applied it on all the other sub-datasets. For both model training and testing, we evaluated regression performance using mean absolute error (MAE). 
 (4) Cross-application of RF models built on the sub-datasets and evaluated the performance using MAE
 
-#### Usage instruction 
+#### What inputs are neccessary for this R script? 
 
 | Input | gut_data |oral_data | skin_data | Description |
 | ------------------ | ------------------ |------------------ |------------------ |-------------------------- |
@@ -44,12 +45,13 @@ The R script `Age.crossRF_reg.ranger.R` performs the meta-analysis of microbiota
 
 
 ## About the `Input/` folder
-
+This folder includes all the input files (biom table, sample metadata and feature metadata files) necessary for the RF regression analysis. 
 
 ## About the `Output/` folder
-
+This folder contains all of the output from the main R script `Age.crossRF_reg.ranger.R`.
 
 ## About the `Figures/` folder
+This folder contains selected output figures from the `Output` folder for our manuscript.
 
 ## Acknowledgements
 
