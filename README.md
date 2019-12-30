@@ -5,7 +5,7 @@ This study performed Random Forest regression analyses of human microbiota from 
 ## What is this repository?
 
 This repository included source codes for generation of all results in this meta-analysis study.
-Qiita study IDs involved in the meta-analysis: 
+### Qiita study IDs involved in the meta-analysis: 
 * Gut microbiota:
 [10317](https://qiita.ucsd.edu/study/description/10317),
 [11757](https://qiita.ucsd.edu/study/description/11757)
@@ -19,7 +19,11 @@ the process of preparing the manuscript, also. Here I'll try to explain some of
 these.
 
 ## R scripts
-
+This meta-analysis depends on the self-developed R package [`crossRanger`](https://github.com/shihuang047/crossRanger) that can be downloaded as following.
+``` r 
+## install.packages('devtools') # if devtools not installed
+devtools::install_github('shihuang047/crossRanger')
+```
 
 ## About the `input/` folder
 
@@ -28,3 +32,8 @@ these.
 
 
 ## About the `figures/` folder
+
+## Acknowledgements
+
+ This work is supported by IBM Research AI through the AI Horizons Network. For
+ more information visit the [IBM AI Horizons Network website](https://www.research.ibm.com/artificial-intelligence/horizons-network/).
