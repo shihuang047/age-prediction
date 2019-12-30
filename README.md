@@ -32,3 +32,8 @@ devtools::install_github('shihuang047/crossRanger')
 
 
 ## About the `figures/` folder
+
+## Acknowledgements
+
+ This work is supported by IBM Research AI through the AI Horizons Network. For
+ more information visit the [IBM AI Horizons Network website](https://www.research.ibm.com/artificial-intelligence/horizons-network/).
