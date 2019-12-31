@@ -29,7 +29,7 @@ This meta-analysis depends on the self-developed R package [`crossRanger`](https
 devtools::install_github('shihuang047/crossRanger')
 ```
 #### What analyses were done by the R script `Age.crossRF_reg.ranger.R`?
-The R script `Age.crossRF_reg.ranger.R` performs the meta-analysis of microbiota data from gut, mouth or skin. For each dataset, this script can perform analyses as following. 
+The R script `Age.crossRF_reg.ranger.R` performs the meta-analysis of microbiota data for predicting chronological age. For each dataset (i.e. gut, mouth or skin), this script can perform analyses as following. 
 * Data trimming (such as sample filtering by NA values in the metadata). 
 * RF modeling and performance evaluation for the whole dataset. 
 * RF modeling and performance evaluation for the sub-datasets. To test if confounders (such as sex) affected the modeling, we first trained the age model within a sub-dataset stratified by a confounder, then applied it on all the other sub-datasets. For both model training and testing, we evaluated regression performance using mean absolute error (MAE). 
