@@ -1,0 +1,8 @@
+.Rhistory
+*.RData
+.ipynb_checkpoints/
+# LibreOffice lock files
+.~lock*
+# Apple-OS-styled files
+*.DS_Store
+*.nc
