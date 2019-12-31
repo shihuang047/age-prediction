@@ -28,7 +28,7 @@ This meta-analysis depends on the self-developed R package [`crossRanger`](https
 ## install.packages('devtools') # if devtools not installed
 devtools::install_github('shihuang047/crossRanger')
 ```
-#### What analysis has been done by R script `Age.crossRF_reg.ranger.R`?
+#### What analyses were done by the R script `Age.crossRF_reg.ranger.R`?
 The R script `Age.crossRF_reg.ranger.R` performs the meta-analysis of microbiota data from gut, mouth and skin. For each dataset, the main analyzing processes here include 
 * Data trimming (such as sample filtering by NA values in the metadata). 
 * RF modeling and performance evaluation for the whole dataset. 
