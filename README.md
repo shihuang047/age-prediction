@@ -39,7 +39,7 @@ The R script `Age.crossRF_reg.ranger.R` performs the meta-analysis of microbiota
 
 | Input | gut_data |oral_data | skin_data | Description |
 | ------------------ | ------------------ |------------------ |------------------ |-------------------------- |
-| datafile  |  gut_data/gut_4575_rare.biom | oral_data/oral_4014.biom | skin_data/skin_4168.biom | Biom-table file |
+| *datafile*  |  gut_data/gut_4575_rare.biom | oral_data/oral_4014.biom | skin_data/skin_4168.biom | Biom-table file |
 | sample_metadata  | gut_data/gut_4575_rare_map.txt | oral_data/oral_4014_map.txt | skin_data/skin_4168_map.txt | Metadata file |
 | feature_metadata |  gut_data/gut_taxonomy.txt | oral_data/oral_taxonomy.txt | skin_data/skin_taxonomy.txt | Feature metadata file |
 | prefix_name  | gut_4575 | oral_4014 | skin_4168 | The prefix of datasets |
