@@ -19,18 +19,24 @@ This repository included source codes for generation of all results in the manus
 | QIITA Study ID | Project name | Publication(s) |
 | ------------------ | ------------------ |------------------ |
 |[10317](https://qiita.ucsd.edu/study/description/10317)| American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) |
+|[1841](https://qiita.ucsd.edu/study/description/1841)| Flores_SMP | [Temporal variability is a personalized feature of the human microbiome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4252997/) |
 |[550](https://qiita.ucsd.edu/study/description/550)| Moving pictures of the human microbiome | [Moving pictures of the human microbiome](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2011-12-5-r50)|
-|[958](https://qiita.ucsd.edu/study/description/958)| KTN Ercolini obese saliva | NA|
 |[1774](https://qiita.ucsd.edu/study/description/1774)| Puerto Rico and Plantanal | NA|
 |[2010](https://qiita.ucsd.edu/study/description/2010)| Longitudinal babies project |[Partial restoration of the microbiota of cesarean-born infants via vaginal microbial transfer](https://www.nature.com/articles/nm.4039)|
 |[2024](https://qiita.ucsd.edu/study/description/2024)| TZ_probiotic_pregnancy_study |[Microbiota at Multiple Body Sites during Pregnancy in a Rural Tanzanian Population and Effects of Moringa-Supplemented Probiotic Yogurt](https://aem.asm.org/content/81/15/4965)|
 |[2202](https://qiita.ucsd.edu/study/description/2202)| mit_daily_timeseries |[Host lifestyle affects human microbiota on daily timescales](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-7-r89)|
 |[10052](https://qiita.ucsd.edu/study/description/10052)| The microbiome of uncontacted Amerindians |[The microbiome of uncontacted Amerindians](https://advances.sciencemag.org/content/1/3/e1500183)|
 |[11052](https://qiita.ucsd.edu/study/description/11052)| Knight_ABTX | NA |
-|[10317](https://qiita.ucsd.edu/study/description/10317)| American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) |
 
 * Skin microbiota:
-1841, 2010, 10317, 11052
+
+| QIITA Study ID | Project name | Publication(s) |
+| ------------------ | ------------------ |------------------ |
+|[10317](https://qiita.ucsd.edu/study/description/10317)| American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) |
+|[11052](https://qiita.ucsd.edu/study/description/11052)| Knight_ABTX | NA |
+|[2010](https://qiita.ucsd.edu/study/description/2010)| Longitudinal babies project |[Partial restoration of the microbiota of cesarean-born infants via vaginal microbial transfer](https://www.nature.com/articles/nm.4039)|
+|[1841](https://qiita.ucsd.edu/study/description/1841)| Flores_SMP | [Temporal variability is a personalized feature of the human microbiome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4252997/) |
+
 ### The age distribution of all samples in gut, oral and skin datasets: 
 ![age distr](age_distribution.png)
 Although skewed age distribution in skin or oral microbiota dataset may lead to inaccurate age prediction for the older adults, it will not affect the capability difference among human microbiomes for age prediction.
