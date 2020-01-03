@@ -39,7 +39,8 @@ This repository included source codes for generation of all results in the manus
 
 ### The age distribution of all samples in gut, oral and skin datasets: 
 ![age distr](age_distribution.png)
-Although skewed age distribution in skin or oral microbiota dataset may lead to inaccurate age prediction for the older adults, it will not affect the capability difference among human microbiomes for age prediction.
+Although the skewed age distribution in the skin or oral microbiota dataset may decrease the accuracy of age prediction for the older adults, it will not affect the conclusions about the relative ability of different human microbiomes to predict age.
+
 The reasons that the predicted ages based on gut, oral and skin microbiota data are all below 60 are two folds: 1) there are far fewer samples from elderly population as the reviewer correctly pointed out (shown in the age distribution plot below); 2) the regression algorithm we used, Random Forest, while robust and accurate for microbiome data (as benchmarked in Knights, et al. 2011 and Knights et al. 2014, and a new benchmark of ours that is currently in press), underestimates the upper end of the age group. This is systemic bias for Random Forest and all other tree-based machine learning methods.
 
 ## R scripts
