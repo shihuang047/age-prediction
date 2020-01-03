@@ -15,6 +15,18 @@ This repository included source codes for generation of all results in the manus
 |[11757](https://qiita.ucsd.edu/study/description/11757)| GGMP regional variation | [Regional variation greatly limits application of healthy gut microbiome reference ranges and disease models](https://www.nature.com/articles/s41591-018-0164-x)|
 
 * Oral microbiota:
+
+| QIITA Study ID | Project name | Publication(s) |
+| ------------------ | ------------------ |------------------ |
+|[10317](https://qiita.ucsd.edu/study/description/10317)| American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) |
+|[550](https://qiita.ucsd.edu/study/description/550)| Moving pictures of the human microbiome | [Moving pictures of the human microbiome](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2011-12-5-r50)|
+|[958](https://qiita.ucsd.edu/study/description/958)| KTN Ercolini obese saliva | NA|
+|[1774](https://qiita.ucsd.edu/study/description/1774)| Puerto Rico and Plantanal | NA|
+|[2010](https://qiita.ucsd.edu/study/description/2010)| Longitudinal babies project |[Partial restoration of the microbiota of cesarean-born infants via vaginal microbial transfer](https://www.nature.com/articles/nm.4039)|
+|[2024](https://qiita.ucsd.edu/study/description/2024)| TZ_probiotic_pregnancy_study |[Microbiota at Multiple Body Sites during Pregnancy in a Rural Tanzanian Population and Effects of Moringa-Supplemented Probiotic Yogurt](https://aem.asm.org/content/81/15/4965)|
+
+
+
 550, 958, 1841, 1774, 2010, 2024, 2136, 10317, 11052, 10052
 * Skin microbiota:
 1841, 2010, 10317, 11052
