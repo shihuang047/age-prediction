@@ -25,7 +25,7 @@ This repository included source codes for generation of all results in the manus
 |[2010](https://qiita.ucsd.edu/study/description/2010)| Longitudinal babies project |[Partial restoration of the microbiota of cesarean-born infants via vaginal microbial transfer](https://www.nature.com/articles/nm.4039)|
 |[2024](https://qiita.ucsd.edu/study/description/2024)| TZ_probiotic_pregnancy_study |[Microbiota at Multiple Body Sites during Pregnancy in a Rural Tanzanian Population and Effects of Moringa-Supplemented Probiotic Yogurt](https://aem.asm.org/content/81/15/4965)|
 |[2202](https://qiita.ucsd.edu/study/description/2202)| mit_daily_timeseries |[Host lifestyle affects human microbiota on daily timescales](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-7-r89)|
-|[10052](https://qiita.ucsd.edu/study/description/10052)| The microbiome of uncontacted Amerindians |[The microbiome of uncontacted Amerindians](https://advances.sciencemag.org/content/1/3/e1500183)|
+|[10052](https://qiita.ucsd.edu/study/description/10052)| Yanomani 2008 |[The microbiome of uncontacted Amerindians](https://advances.sciencemag.org/content/1/3/e1500183)|
 |[11052](https://qiita.ucsd.edu/study/description/11052)| Knight_ABTX | NA |
 
 * Skin microbiota:
