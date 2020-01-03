@@ -11,7 +11,7 @@ This repository included source codes for generation of all results in the manus
 [10317](https://qiita.ucsd.edu/study/description/10317),
 [11757](https://qiita.ucsd.edu/study/description/11757)
 * Oral microbiota:
-550, 1841, 1774, 2010, 2024, 2136, 10317, 11052, 10052
+550, 958, 1841, 1774, 2010, 2024, 2136, 10317, 11052, 10052
 * Skin microbiota:
 1841, 2010, 10317, 11052
 ### The age distribution of all samples in gut, oral and skin datasets: 
