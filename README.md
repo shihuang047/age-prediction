@@ -9,10 +9,10 @@ This repository included source codes for generation of all results in the manus
 ### Qiita study IDs involved in the meta-analysis: 
 * Gut microbiota:
 
-| QIITA Study ID | Project name | Publication(s) |
-| ------------------ | ------------------ |------------------ |
-|[10317](https://qiita.ucsd.edu/study/description/10317)| American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) |
-|[11757](https://qiita.ucsd.edu/study/description/11757)| GGMP regional variation | [Regional variation greatly limits application of healthy gut microbiome reference ranges and disease models](https://www.nature.com/articles/s41591-018-0164-x)|
+| QIITA Study ID | Project name | Publication(s) | # of samples involved |
+| ------------------ | ------------------ |------------------ | ------------------ |
+|[10317](https://qiita.ucsd.edu/study/description/10317)| American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) | 2770 |
+|[11757](https://qiita.ucsd.edu/study/description/11757)| GGMP regional variation | [Regional variation greatly limits application of healthy gut microbiome reference ranges and disease models](https://www.nature.com/articles/s41591-018-0164-x)| 1609 |
 
 * Oral microbiota:
 
