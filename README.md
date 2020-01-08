@@ -5,7 +5,7 @@ This study performed Random Forest regression analyses of human microbiota from 
 This repository included source codes for generation of all results in the manuscript.
 
 
-## The data resource and cohort characteristics
+## Data source
 ### Qiita study IDs involved in the meta-analysis: 
 * Gut microbiota:
 
