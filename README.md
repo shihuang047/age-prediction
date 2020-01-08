@@ -2,7 +2,7 @@
 Human skin, oral, and gut microbiomes predict chronological age
 -----------------------
 This study performed Random Forest regression analyses of human microbiota from multiple body sites (gut, mouth and skin).
-This repository included source codes for generation of all results in the manuscript.
+This repository provided all source data and codes for generation of all results in the manuscript and additional exploratory analysis to help reader to better understand our microbiota-based models for age prediction.
 
 
 ## Data source
@@ -64,9 +64,9 @@ The R script `Age.crossRF_reg.ranger.R` performs the meta-analysis of microbiota
 | Input | gut_data |oral_data | skin_data | Description |
 | ------------------ | ------------------ |------------------ |------------------ |-------------------------- |
 | `datafile`  |  gut_data/gut_4434.biom | oral_data/oral_4014.biom | skin_data/skin_4168.biom | Biom-table file |
-| `sample_metadata`  | gut_data/gut_4434_map.txt | oral_data/oral_4014_map.txt | skin_data/skin_4168_map.txt | Metadata file |
+| `sample_metadata`  | gut_data/gut_4434_map.txt | oral_data/oral_2550_map.txt | skin_data/skin_1975_map.txt | Metadata file |
 | `feature_metadata` |  gut_data/gut_taxonomy.txt | oral_data/oral_taxonomy.txt | skin_data/skin_taxonomy.txt | Feature metadata file |
-| `prefix_name`  | gut_4434 | oral_4014 | skin_4168 | The prefix of datasets |
+| `prefix_name`  | gut_4434 | oral_2550 | skin_1975 | The prefix of datasets |
 | `s_category`  |  c("cohort", "sex") | "qiita_host_sex" | c("body_site","qiita_host_sex") | The metadata category for dividing datasets |
 | `c_category`  |  "age" | "qiita_host_age" | "qiita_host_age" | The targeted metadata category for RF modeling |
 

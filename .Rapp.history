@@ -1,0 +1,9 @@
+load("/Users/huangshi/MyProjects/CMI-IBM/age-prediction/oral_2550.rf_all_group5fold.rds")
+rf_fit_group
+summary(rf_fit_group)
+rf_fit_group$mtry
+rf_fit_group$finalModel
+summary(rf_fit_group$finalModel)
+summary(rf_fit_group$finalModel$mtry)
+summary(rf_fit_group$finalModel$num.tree)
+summary(rf_fit_group$finalModel$r.squared)
