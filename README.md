@@ -18,7 +18,7 @@ This repository included source codes for generation of all results in the manus
 
 | QIITA Study ID | Project name | Publication(s) | # of samples involved |
 | ------------------ | ------------------ |------------------ | ------------------ |
-|[10317](https://qiita.ucsd.edu/study/description/10317)| American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) | |
+|[10317](https://qiita.ucsd.edu/study/description/10317)| American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) | 547 |
 |[1841](https://qiita.ucsd.edu/study/description/1841)| Flores_SMP | [Temporal variability is a personalized feature of the human microbiome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4252997/) | 642 |
 |[550](https://qiita.ucsd.edu/study/description/550)| Moving pictures of the human microbiome | [Moving pictures of the human microbiome](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2011-12-5-r50)| 508 |
 |[1774](https://qiita.ucsd.edu/study/description/1774)| Puerto Rico and Plantanal | NA| 48 |
