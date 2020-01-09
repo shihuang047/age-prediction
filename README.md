@@ -59,7 +59,7 @@ The R script `Age.crossRF_reg.ranger.R` performs the meta-analysis of microbiota
 * RF modeling and performance evaluation for the sub-datasets. To test if confounders (such as sex) affected the modeling, we first trained the age model within a sub-dataset stratified by a confounder, then applied it on all the other sub-datasets. For both model training and testing, we evaluated regression performance using mean absolute error (MAE). 
 * Cross-application of RF models built on the sub-datasets and evaluated the performance using MAE.
 
-All the anaylses can be done with this script typically in the [Rstudio](https://rstudio.com/products/rstudio/download/) or [R concole](https://www.r-project.org/).
+All the anaylses can be conducted with this script typically in the [Rstudio](https://rstudio.com/products/rstudio/download/) or [R concole](https://www.r-project.org/).
 
 #### What inputs are neccessary for this R script? 
 
