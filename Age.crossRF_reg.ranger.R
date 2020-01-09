@@ -1,14 +1,20 @@
 # ---
-# title: "age prediction/classification in the multiple datasets"
+# title: "age prediction in the gut, oral and skin datasets"
 # author: "ShiHuang"
-# date: "8/6/2019"
+# date: "12/26/2019"
 # output: html_document
 # ---
 #-------------------------------
 # install and load necessary libraries for data analyses
 #-------------------------------
-## install.packages('devtools') # if devtools not installed
-## devtools::install_github('shihuang047/crossRanger')
+
+# install.packages('devtools') # if devtools not installed
+# devtools::install_github('shihuang047/crossRanger')
+
+# if (!requireNamespace("BiocManager", quietly = TRUE))
+# install.packages("BiocManager")
+# BiocManager::install("biomformat")
+
 p <- c("reshape2","ggplot2", "dplyr", "biomformat", "devtools", "crossRanger", "viridis")
 usePackage <- function(p) {
   if (!is.element(p, installed.packages()[,1]))
@@ -16,13 +22,14 @@ usePackage <- function(p) {
   suppressWarnings(suppressMessages(invisible(require(p, character.only=TRUE))))
 }
 invisible(lapply(p, usePackage))
+
 #-------------------------------
 # input args
 #-------------------------------
 setwd("/Users/huangshi/MyProjects/CMI-IBM/age-prediction/")
 #-------------------------------
-datafile<-"Input/skin_data/skin_1975.biom" # gut_data/gut_4434.biom | oral_data/oral_2594.biom | skin_data/skin_1975.biom
-sample_metadata <- "Input/skin_data/skin_1975_map.txt" # gut_data/gut_4434_map.txt | oral_data/oral_2594_map.txt | skin_data/skin_1975_map.txt 
+datafile<-"Input/skin_data/skin_1975.biom" # gut_data/gut_4434.biom | oral_data/oral_2550.biom | skin_data/skin_1975.biom
+sample_metadata <- "Input/skin_data/skin_1975_map.txt" # gut_data/gut_4434_map.txt | oral_data/oral_2550_map.txt | skin_data/skin_1975_map.txt 
 feature_metadata<-"Input/skin_data/skin_taxonomy.txt" # gut_data/gut_taxonomy.txt | oral_data/oral_taxonomy.txt | skin_data/skin_taxonomy.txt
 prefix_name<-"skin_1975" # gut_4434 | oral_2550 | skin_1975
 s_category<-c("body_site","qiita_host_sex")  # c("cohort", "sex") | "qiita_host_sex" | c("body_site","qiita_host_sex") 
@@ -99,10 +106,8 @@ identical(rownames(df_k),rownames(metadata_k))
 #-------------------------------
 # fitler variables in microbiota data
 #-------------------------------
-#-------------------------------
 cat("The number of samples : ", nrow(df_k) ,"\n")
 cat("The number of variables : ", ncol(df_k) ,"\n")
-#-------------------------------
 #-------------------------------filtering taxa with zero variance
 df_k<-df_k[,which(apply(df_k,2,var)!=0)]
 cat("The number of fitlered variables (removed variables with zero variance) : ", ncol(df_k) ,"\n")
@@ -110,7 +115,6 @@ cat("The number of fitlered variables (removed variables with zero variance) : "
 NonZero.p<-0.995
 df_k<-df_k[,which(colSums(df_k==0)<NonZero.p*nrow(df_k))]
 cat("The number of variables (removed variables containing over ", NonZero.p," zero) in training data: ", ncol(df_k) ,"\n")
-
 #-------------------------------
 # rf_reg using all datasets
 #-------------------------------
@@ -430,7 +434,6 @@ rf_sub<-rf.cross.validation(x=sub_x, y=sub_y, ntree = 500, nfolds = 5)
 
 plot_obs_VS_pred(rf_sub$y, rf_sub$predicted, prefix="sub_train", target_field="age", span=1, outdir = outpath)
 plot_perf_VS_rand(rf_sub$y, rf_sub$predicted, prefix="sub_train", target_field="age", n_features=ncol(sub_x), permutation = 1000, outdir = outpath)
-
 
 
 
