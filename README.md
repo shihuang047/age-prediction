@@ -75,10 +75,10 @@ The R script `Age.crossRF_reg.ranger.R` performs the meta-analysis of microbiota
 This folder includes all the input files (biom table, sample metadata and feature metadata files) necessary for the RF regression analysis. 
 
 ## About the `Output/` folder
-This folder contains all of the output from the main R script `Age.crossRF_reg.ranger.R`.
+This folder contains all of the output files from the main R script `Age.crossRF_reg.ranger.R`.
 
 ## About the `Figures/` folder
-This folder contains selected output figures from the `Output` folder for our manuscript.
+This folder contains selected output figures from the `Output` folder to genenrate the formal figures in our manuscript.
 
 ## Acknowledgements
 
