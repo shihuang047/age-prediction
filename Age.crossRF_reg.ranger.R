@@ -137,7 +137,7 @@ if(file.exists(all_res_file)){
 cat(mean(rf_all$MAE), "+-", sd(rf_all$MAE), "\n")
 cat(mean(rf_all$R_squared),"+-", sd(rf_all$R_squared),  "\n")
 plot_obs_VS_pred(rf_all$y, rf_all$predicted, prefix="train", target_field="age", span=1, outdir = outpath)
-plot_perf_VS_rand(rf_all$y, rf_all$predicted, prefix="train", target_field="age", n_features=ncol(x), permutation = 1000, outdir = outpath)
+# plot_perf_VS_rand(rf_all$y, rf_all$predicted, prefix="train", target_field="age", n_features=ncol(x), permutation = 1000, outdir = outpath)
 #-------------------------------
 # rf_reg with caret: tuning rf by 5-fold cv
 #-------------------------------
