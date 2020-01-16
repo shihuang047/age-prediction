@@ -9,33 +9,33 @@ This repository provided all source data and codes for generation of all results
 ### Qiita study IDs involved in the meta-analysis: 
 * Gut microbiota:
 
-| QIITA Study ID | Project name | Publication(s) | # of samples involved |
-| ------------------ | ------------------ |------------------ | ------------------ |
-|[10317](https://qiita.ucsd.edu/study/description/10317)| American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) | 2770 |
-|[11757](https://qiita.ucsd.edu/study/description/11757)| GGMP regional variation | [Regional variation greatly limits application of healthy gut microbiome reference ranges and disease models](https://www.nature.com/articles/s41591-018-0164-x)| 1609 |
+| QIITA Study ID | EBI accession ID | Project name | Publication(s) | # of samples involved |
+| ------------------ | ------------------ | ------------------ |------------------ | ------------------ |
+|[10317](https://qiita.ucsd.edu/study/description/10317)| ERP012803 | American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) | 2770 |
+|[11757](https://qiita.ucsd.edu/study/description/11757)| not submitted | GGMP regional variation | [Regional variation greatly limits application of healthy gut microbiome reference ranges and disease models](https://www.nature.com/articles/s41591-018-0164-x)| 1609 |
 
 * Oral microbiota:
 
 | QIITA Study ID | EBI accession ID | Project name | Publication(s) | # of samples involved |
 | ------------------ | ------------------ | ------------------ |------------------ | ------------------ |
 |[10317](https://qiita.ucsd.edu/study/description/10317)| ERP012803 |American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) | 547 |
-|[1841](https://qiita.ucsd.edu/study/description/1841)| | Flores_SMP | [Temporal variability is a personalized feature of the human microbiome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4252997/) | 642 |
-|[550](https://qiita.ucsd.edu/study/description/550)| | Moving pictures of the human microbiome | [Moving pictures of the human microbiome](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2011-12-5-r50)| 508 |
-|[1774](https://qiita.ucsd.edu/study/description/1774)|  | Puerto Rico and Plantanal | NA| 48 |
-|[2010](https://qiita.ucsd.edu/study/description/2010)|  | Longitudinal babies project |[Partial restoration of the microbiota of cesarean-born infants via vaginal microbial transfer](https://www.nature.com/articles/nm.4039)| 72 |
-|[2024](https://qiita.ucsd.edu/study/description/2024)|  | TZ_probiotic_pregnancy_study |[Microbiota at Multiple Body Sites during Pregnancy in a Rural Tanzanian Population and Effects of Moringa-Supplemented Probiotic Yogurt](https://aem.asm.org/content/81/15/4965)| 254 |
-|[2202](https://qiita.ucsd.edu/study/description/2202)|  | mit_daily_timeseries |[Host lifestyle affects human microbiota on daily timescales](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-7-r89)| 285 |
-|[10052](https://qiita.ucsd.edu/study/description/10052)|  | Yanomani 2008 |[The microbiome of uncontacted Amerindians](https://advances.sciencemag.org/content/1/3/e1500183)| 16 |
-|[11052](https://qiita.ucsd.edu/study/description/11052)|  | Knight_ABTX | NA | 178 |
+|[1841](https://qiita.ucsd.edu/study/description/1841)| PRJEB5726, PRJEB5727, PRJEB5728 | Flores_SMP | [Temporal variability is a personalized feature of the human microbiome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4252997/) | 642 |
+|[550](https://qiita.ucsd.edu/study/description/550)| ERP021896 | Moving pictures of the human microbiome | [Moving pictures of the human microbiome](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2011-12-5-r50)| 508 |
+|[1774](https://qiita.ucsd.edu/study/description/1774)| ERP016472 | Puerto Rico and Plantanal | NA| 48 |
+|[2010](https://qiita.ucsd.edu/study/description/2010)| ERP012216 | Longitudinal babies project |[Partial restoration of the microbiota of cesarean-born infants via vaginal microbial transfer](https://www.nature.com/articles/nm.4039)| 72 |
+|[2024](https://qiita.ucsd.edu/study/description/2024)| ERP016621 | TZ_probiotic_pregnancy_study |[Microbiota at Multiple Body Sites during Pregnancy in a Rural Tanzanian Population and Effects of Moringa-Supplemented Probiotic Yogurt](https://aem.asm.org/content/81/15/4965)| 254 |
+|[2202](https://qiita.ucsd.edu/study/description/2202)| PRJEB6518 | mit_daily_timeseries |[Host lifestyle affects human microbiota on daily timescales](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2014-15-7-r89)| 285 |
+|[10052](https://qiita.ucsd.edu/study/description/10052)| ERP008799, ERP008694  | Yanomani 2008 |[The microbiome of uncontacted Amerindians](https://advances.sciencemag.org/content/1/3/e1500183)| 16 |
+|[11052](https://qiita.ucsd.edu/study/description/11052)| not submitted | Knight_ABTX | NA | 178 |
 
 * Skin microbiota:
 
-| QIITA Study ID | Project name | Publication(s) | # of samples involved |
-| ------------------ | ------------------ |------------------ |------------------ |
-|[10317](https://qiita.ucsd.edu/study/description/10317)| American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) | 440|
-|[11052](https://qiita.ucsd.edu/study/description/11052)| Knight_ABTX | NA | 177|
-|[2010](https://qiita.ucsd.edu/study/description/2010)| Longitudinal babies project |[Partial restoration of the microbiota of cesarean-born infants via vaginal microbial transfer](https://www.nature.com/articles/nm.4039)| 65|
-|[1841](https://qiita.ucsd.edu/study/description/1841)| Flores_SMP | [Temporal variability is a personalized feature of the human microbiome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4252997/) |1293 |
+| QIITA Study ID | EBI accession ID | Project name | Publication(s) | # of samples involved |
+| ------------------ | ------------------ | ------------------ |------------------ |------------------ |
+|[10317](https://qiita.ucsd.edu/study/description/10317)| ERP012803 | American Gut Project | [American Gut: an Open Platform for Citizen Science Microbiome Research](https://msystems.asm.org/content/3/3/e00031-18) | 440|
+|[11052](https://qiita.ucsd.edu/study/description/11052)| not submitted | Knight_ABTX | NA | 177|
+|[2010](https://qiita.ucsd.edu/study/description/2010)| ERP012216 | Longitudinal babies project |[Partial restoration of the microbiota of cesarean-born infants via vaginal microbial transfer](https://www.nature.com/articles/nm.4039)| 65|
+|[1841](https://qiita.ucsd.edu/study/description/1841)| PRJEB5726, PRJEB5727, PRJEB5728 | Flores_SMP | [Temporal variability is a personalized feature of the human microbiome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4252997/) |1293 |
 
 ### The age distribution of all samples in gut, oral and skin datasets: 
 ![age distr](age_distribution.png)
