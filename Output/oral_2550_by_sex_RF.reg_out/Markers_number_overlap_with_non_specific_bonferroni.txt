@@ -1,0 +1,3 @@
+	All_shared_markers	Specific_markers	Others
+female	57	88	771
+male	57	159	686

@@ -28,13 +28,13 @@ invisible(lapply(p, usePackage))
 #-------------------------------
 setwd("/Users/huangshi/MyProjects/CMI-IBM/age-prediction/")
 #-------------------------------
-datafile<-"Input/skin_data/skin_1975.biom" # gut_data/gut_4434.biom | oral_data/oral_2550.biom | skin_data/skin_1975.biom
-sample_metadata <- "Input/skin_data/skin_1975_map.txt" # gut_data/gut_4434_map.txt | oral_data/oral_2550_map.txt | skin_data/skin_1975_map.txt 
-feature_metadata<-"Input/skin_data/skin_taxonomy.txt" # gut_data/gut_taxonomy.txt | oral_data/oral_taxonomy.txt | skin_data/skin_taxonomy.txt
-prefix_name<-"skin_1975" # gut_4434 | oral_2550 | skin_1975
-s_category<-c("body_site","qiita_host_sex")  # c("cohort", "sex") | "qiita_host_sex" | c("body_site","qiita_host_sex") 
+datafile<-"Input/oral_data/oral_2550.biom" # gut_data/gut_4434.biom | oral_data/oral_2550.biom | skin_data/skin_1975.biom
+sample_metadata <- "Input/oral_data/oral_2550_map.txt" # gut_data/gut_4434_map.txt | oral_data/oral_2550_map.txt | skin_data/skin_1975_map.txt 
+feature_metadata<-"Input/oral_data/oral_taxonomy.txt" # gut_data/gut_taxonomy.txt | oral_data/oral_taxonomy.txt | skin_data/skin_taxonomy.txt
+prefix_name<-"oral_2550" # gut_4434 | oral_2550 | skin_1975
+s_category<-"qiita_host_sex"  # c("cohort", "sex") | "qiita_host_sex" | c("body_site","qiita_host_sex") 
 c_category<-"qiita_host_age"  #"age" "qiita_host_age" "qiita_host_age"
-outpath <- "Output/skin_1975_by_site_sex_RF.reg_out/" # ./Output/gut_4434_by_cohort_sex_RF.reg_out/ ./Output/oral_2550_by_sex_RF.reg_out/ ./Output/skin_1975_by_site_sex_RF.reg_out/
+outpath <- "./Output/oral_2550_by_sex_RF.reg_out/" # ./Output/gut_4434_by_cohort_sex_RF.reg_out/ ./Output/oral_2550_by_sex_RF.reg_out/ ./Output/skin_1975_by_site_sex_RF.reg_out/
 dir.create(outpath)
 
 #-------------------------------
@@ -421,7 +421,7 @@ ggsave(filename=paste(outpath,"Scatterplot_cross_appl_matrix_",c_category, "_amo
 # To address the reviewer's comment on why age prediction not accurate at old ages
 #-------------------------------
 ids_gt40<-which(metadata_k[, c_category]>40)
-ids_st40<-which(metadata_k[, c_category]<40)
+ids_st40<-which(metadata_k[, c_category]<=40)
 n_gt40<-length(ids_gt40)
 n_st40<-length(ids_st40)
 

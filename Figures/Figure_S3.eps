@@ -1,0 +1,1439 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%DocumentNeededResources: font Helvetica
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Helvetica-BoldOblique
+%%+ font Symbol
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%BoundingBox: 0 0 720 720
+%%EndComments
+%%BeginProlog
+/bp  { gs sRGB gs } def
+% begin .ps.prolog
+/gs  { gsave } bind def
+/gr  { grestore } bind def
+/ep  { showpage gr gr } bind def
+/m   { moveto } bind def
+/l  { rlineto } bind def
+/np  { newpath } bind def
+/cp  { closepath } bind def
+/f   { fill } bind def
+/o   { stroke } bind def
+/c   { newpath 0 360 arc } bind def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } bind def
+/p1  { stroke } bind def
+/p2  { gsave bg fill grestore newpath } bind def
+/p3  { gsave bg fill grestore stroke } bind def
+/p6  { gsave bg eofill grestore newpath } bind def
+/p7  { gsave bg eofill grestore stroke } bind def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } bind def
+/ta  { 4 -2 roll moveto gsave rotate show } bind def
+/tb  { 2 -1 roll 0 rmoveto show } bind def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } bind def
+/rgb { setrgbcolor } bind def
+/s   { scalefont setfont } bind def
+% end   .ps.prolog
+/sRGB { [ /CIEBasedABC
+          << /DecodeLMN
+               [ { dup 0.03928 le
+                        {12.92321 div}
+                        {0.055 add 1.055 div 2.4 exp }
+                     ifelse
+                 } bind dup dup
+               ]
+             /MatrixLMN [0.412457 0.212673 0.019334
+                         0.357576 0.715152 0.119192
+                         0.180437 0.072175 0.950301]
+             /WhitePoint [0.9505 1.0 1.0890]
+           >>
+         ] setcolorspace } bind def
+/srgb { setcolor } bind def
+%%IncludeResource: font Helvetica
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Helvetica-Oblique
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Helvetica-BoldOblique
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+/bg { 1 1 1 srgb } def
+1 1 1 srgb
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+-0.00 0.00 720.00 720.00 r p3
+0.00 0.00 720.00 720.00 cl
+567.82 54.20 616.01 714.52 cl
+/bg { 0.9216 0.9216 0.9216 srgb } def
+567.82 54.20 48.19 660.32 r p2
+1 1 1 srgb
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+567.82 60.78 m
+48.19 0 l
+o
+np
+567.82 71.75 m
+48.19 0 l
+o
+np
+567.82 82.72 m
+48.19 0 l
+o
+np
+567.82 93.69 m
+48.19 0 l
+o
+np
+567.82 104.66 m
+48.19 0 l
+o
+np
+567.82 115.63 m
+48.19 0 l
+o
+np
+567.82 126.60 m
+48.19 0 l
+o
+np
+567.82 137.57 m
+48.19 0 l
+o
+np
+567.82 148.53 m
+48.19 0 l
+o
+np
+567.82 159.50 m
+48.19 0 l
+o
+np
+567.82 170.47 m
+48.19 0 l
+o
+np
+567.82 181.44 m
+48.19 0 l
+o
+np
+567.82 192.41 m
+48.19 0 l
+o
+np
+567.82 203.38 m
+48.19 0 l
+o
+np
+567.82 214.35 m
+48.19 0 l
+o
+np
+567.82 225.32 m
+48.19 0 l
+o
+np
+567.82 236.28 m
+48.19 0 l
+o
+np
+567.82 247.25 m
+48.19 0 l
+o
+np
+567.82 258.22 m
+48.19 0 l
+o
+np
+567.82 269.19 m
+48.19 0 l
+o
+np
+567.82 280.16 m
+48.19 0 l
+o
+np
+567.82 291.13 m
+48.19 0 l
+o
+np
+567.82 302.10 m
+48.19 0 l
+o
+np
+567.82 313.07 m
+48.19 0 l
+o
+np
+567.82 324.03 m
+48.19 0 l
+o
+np
+567.82 335.00 m
+48.19 0 l
+o
+np
+567.82 345.97 m
+48.19 0 l
+o
+np
+567.82 356.94 m
+48.19 0 l
+o
+np
+567.82 367.91 m
+48.19 0 l
+o
+np
+567.82 378.88 m
+48.19 0 l
+o
+np
+567.82 389.85 m
+48.19 0 l
+o
+np
+567.82 400.82 m
+48.19 0 l
+o
+np
+567.82 411.78 m
+48.19 0 l
+o
+np
+567.82 422.75 m
+48.19 0 l
+o
+np
+567.82 433.72 m
+48.19 0 l
+o
+np
+567.82 444.69 m
+48.19 0 l
+o
+np
+567.82 455.66 m
+48.19 0 l
+o
+np
+567.82 466.63 m
+48.19 0 l
+o
+np
+567.82 477.60 m
+48.19 0 l
+o
+np
+567.82 488.56 m
+48.19 0 l
+o
+np
+567.82 499.53 m
+48.19 0 l
+o
+np
+567.82 510.50 m
+48.19 0 l
+o
+np
+567.82 521.47 m
+48.19 0 l
+o
+np
+567.82 532.44 m
+48.19 0 l
+o
+np
+567.82 543.41 m
+48.19 0 l
+o
+np
+567.82 554.38 m
+48.19 0 l
+o
+np
+567.82 565.35 m
+48.19 0 l
+o
+np
+567.82 576.31 m
+48.19 0 l
+o
+np
+567.82 587.28 m
+48.19 0 l
+o
+np
+567.82 598.25 m
+48.19 0 l
+o
+np
+567.82 609.22 m
+48.19 0 l
+o
+np
+567.82 620.19 m
+48.19 0 l
+o
+np
+567.82 631.16 m
+48.19 0 l
+o
+np
+567.82 642.13 m
+48.19 0 l
+o
+np
+567.82 653.10 m
+48.19 0 l
+o
+np
+567.82 664.06 m
+48.19 0 l
+o
+np
+567.82 675.03 m
+48.19 0 l
+o
+np
+567.82 686.00 m
+48.19 0 l
+o
+np
+567.82 696.97 m
+48.19 0 l
+o
+np
+567.82 707.94 m
+48.19 0 l
+o
+np
+580.97 54.20 m
+0 660.32 l
+o
+np
+602.87 54.20 m
+0 660.32 l
+o
+/bg { 0.8392 0.8824 0.2196 srgb } def
+0.21 setlinewidth
+[] 0 setdash
+2 setlinecap
+0 setlinejoin
+570.01 636.64 21.90 10.97 r p3
+/bg { 0.8000 0.8745 0.2353 srgb } def
+570.01 526.96 21.90 10.97 r p3
+/bg { 0.1647 0.5882 0.5333 srgb } def
+591.92 526.96 21.90 10.97 r p3
+/bg { 0.3804 0.7569 0.4078 srgb } def
+591.92 537.92 21.90 10.97 r p3
+/bg { 0.1725 0.5412 0.5451 srgb } def
+570.01 274.67 21.90 10.97 r p3
+/bg { 0.2471 0.3137 0.5373 srgb } def
+591.92 274.67 21.90 10.97 r p3
+/bg { 0.3804 0.7569 0.4078 srgb } def
+570.01 581.80 21.90 10.97 r p3
+/bg { 0.8000 0.8745 0.2353 srgb } def
+591.92 581.80 21.90 10.97 r p3
+/bg { 0.2745 0.1137 0.3922 srgb } def
+570.01 186.93 21.90 10.97 r p3
+/bg { 0.1686 0.4941 0.5529 srgb } def
+591.92 186.93 21.90 10.97 r p3
+/bg { 0.2784 0.7020 0.4706 srgb } def
+591.92 472.11 21.90 10.97 r p3
+/bg { 0.2392 0.3490 0.5412 srgb } def
+570.01 241.77 21.90 10.97 r p3
+/bg { 0.2078 0.4157 0.5490 srgb } def
+591.92 241.77 21.90 10.97 r p3
+/bg { 0.5843 0.8353 0.2941 srgb } def
+591.92 603.74 21.90 10.97 r p3
+/bg { 0.2627 0.2471 0.5098 srgb } def
+570.01 296.61 21.90 10.97 r p3
+/bg { 0.2431 0.6902 0.4824 srgb } def
+591.92 296.61 21.90 10.97 r p3
+/bg { 0.1569 0.6627 0.5137 srgb } def
+570.01 439.21 21.90 10.97 r p3
+/bg { 0.9922 0.9059 0.1451 srgb } def
+570.01 702.45 21.90 10.97 r p3
+/bg { 0.2706 0.0667 0.3608 srgb } def
+570.01 66.27 21.90 10.97 r p3
+/bg { 0.2706 0.0353 0.3451 srgb } def
+591.92 66.27 21.90 10.97 r p3
+/bg { 0.2471 0.3137 0.5373 srgb } def
+570.01 197.89 21.90 10.97 r p3
+/bg { 0.4431 0.7961 0.3529 srgb } def
+570.01 461.14 21.90 10.97 r p3
+/bg { 0.1686 0.5725 0.5373 srgb } def
+591.92 461.14 21.90 10.97 r p3
+/bg { 0.5843 0.8353 0.2941 srgb } def
+570.01 625.67 21.90 10.97 r p3
+/bg { 0.7176 0.8588 0.2627 srgb } def
+591.92 625.67 21.90 10.97 r p3
+/bg { 0.2745 0.1333 0.4078 srgb } def
+570.01 121.11 21.90 10.97 r p3
+/bg { 0.2706 0.1725 0.4431 srgb } def
+591.92 121.11 21.90 10.97 r p3
+/bg { 0.2745 0.1529 0.4275 srgb } def
+570.01 99.18 21.90 10.97 r p3
+/bg { 0.2745 0.1137 0.3922 srgb } def
+591.92 99.18 21.90 10.97 r p3
+/bg { 0.1686 0.4941 0.5529 srgb } def
+570.01 428.24 21.90 10.97 r p3
+/bg { 0.4431 0.7961 0.3529 srgb } def
+591.92 428.24 21.90 10.97 r p3
+/bg { 0.2314 0.3647 0.5451 srgb } def
+570.01 384.36 21.90 10.97 r p3
+/bg { 0.4627 0.8078 0.3333 srgb } def
+591.92 384.36 21.90 10.97 r p3
+/bg { 0.9529 0.8980 0.1686 srgb } def
+570.01 691.49 21.90 10.97 r p3
+/bg { 0.2706 0.0941 0.3765 srgb } def
+591.92 88.21 21.90 10.97 r p3
+/bg { 0.2706 0.0353 0.3451 srgb } def
+570.01 77.24 21.90 10.97 r p3
+/bg { 0.2706 0.0667 0.3608 srgb } def
+591.92 77.24 21.90 10.97 r p3
+/bg { 0.2667 0.0039 0.3294 srgb } def
+570.01 55.30 21.90 10.97 r p3
+591.92 55.30 21.90 10.97 r p3
+/bg { 0.4235 0.7804 0.3725 srgb } def
+591.92 559.86 21.90 10.97 r p3
+/bg { 0.2706 0.1922 0.4588 srgb } def
+570.01 219.83 21.90 10.97 r p3
+/bg { 0.1725 0.4627 0.5569 srgb } def
+591.92 219.83 21.90 10.97 r p3
+/bg { 0.2431 0.3333 0.5373 srgb } def
+570.01 143.05 21.90 10.97 r p3
+/bg { 0.2745 0.1529 0.4275 srgb } def
+591.92 143.05 21.90 10.97 r p3
+/bg { 0.4039 0.7686 0.3882 srgb } def
+591.92 548.89 21.90 10.97 r p3
+/bg { 0.3059 0.7137 0.4549 srgb } def
+591.92 483.08 21.90 10.97 r p3
+/bg { 0.1647 0.4784 0.5569 srgb } def
+591.92 307.58 21.90 10.97 r p3
+/bg { 0.2275 0.3804 0.5451 srgb } def
+570.01 252.74 21.90 10.97 r p3
+/bg { 0.3608 0.7412 0.4235 srgb } def
+570.01 505.02 21.90 10.97 r p3
+/bg { 0.2784 0.7020 0.4706 srgb } def
+570.01 362.42 21.90 10.97 r p3
+/bg { 0.2000 0.4314 0.5529 srgb } def
+591.92 362.42 21.90 10.97 r p3
+/bg { 0.2549 0.2824 0.5333 srgb } def
+570.01 164.99 21.90 10.97 r p3
+/bg { 0.2549 0.2627 0.5255 srgb } def
+591.92 164.99 21.90 10.97 r p3
+/bg { 0.2196 0.4000 0.5490 srgb } def
+591.92 263.71 21.90 10.97 r p3
+/bg { 0.4039 0.7686 0.3882 srgb } def
+570.01 515.99 21.90 10.97 r p3
+/bg { 0.3333 0.7294 0.4392 srgb } def
+591.92 515.99 21.90 10.97 r p3
+/bg { 0.8784 0.8863 0.2039 srgb } def
+591.92 658.58 21.90 10.97 r p3
+/bg { 0.3059 0.7137 0.4549 srgb } def
+570.01 494.05 21.90 10.97 r p3
+/bg { 0.2078 0.6784 0.4980 srgb } def
+570.01 417.27 21.90 10.97 r p3
+/bg { 0.1608 0.6039 0.5294 srgb } def
+591.92 417.27 21.90 10.97 r p3
+/bg { 0.4902 0.8196 0.3176 srgb } def
+570.01 570.83 21.90 10.97 r p3
+/bg { 0.1686 0.5569 0.5412 srgb } def
+570.01 329.52 21.90 10.97 r p3
+/bg { 0.1843 0.4471 0.5529 srgb } def
+591.92 329.52 21.90 10.97 r p3
+/bg { 0.1412 0.6510 0.5216 srgb } def
+570.01 395.33 21.90 10.97 r p3
+/bg { 0.1686 0.5569 0.5412 srgb } def
+591.92 395.33 21.90 10.97 r p3
+/bg { 0.9176 0.8941 0.1882 srgb } def
+591.92 680.52 21.90 10.97 r p3
+/bg { 0.2706 0.0941 0.3765 srgb } def
+570.01 132.08 21.90 10.97 r p3
+/bg { 0.2667 0.2118 0.4745 srgb } def
+591.92 132.08 21.90 10.97 r p3
+/bg { 0.2745 0.1333 0.4078 srgb } def
+591.92 110.14 21.90 10.97 r p3
+/bg { 0.1725 0.5255 0.5451 srgb } def
+591.92 340.49 21.90 10.97 r p3
+570.01 351.46 21.90 10.97 r p3
+/bg { 0.8784 0.8863 0.2039 srgb } def
+570.01 669.55 21.90 10.97 r p3
+/bg { 0.1647 0.4784 0.5569 srgb } def
+570.01 318.55 21.90 10.97 r p3
+/bg { 0.1686 0.5725 0.5373 srgb } def
+570.01 373.39 21.90 10.97 r p3
+/bg { 0.2706 0.1725 0.4431 srgb } def
+570.01 154.02 21.90 10.97 r p3
+/bg { 0.2431 0.3333 0.5373 srgb } def
+591.92 154.02 21.90 10.97 r p3
+/bg { 0.2667 0.2118 0.4745 srgb } def
+570.01 175.96 21.90 10.97 r p3
+/bg { 0.2314 0.3647 0.5451 srgb } def
+591.92 175.96 21.90 10.97 r p3
+/bg { 0.2196 0.4000 0.5490 srgb } def
+570.01 208.86 21.90 10.97 r p3
+/bg { 0.2627 0.2471 0.5098 srgb } def
+591.92 208.86 21.90 10.97 r p3
+/bg { 0.1529 0.6196 0.5255 srgb } def
+570.01 406.30 21.90 10.97 r p3
+/bg { 0.6314 0.8431 0.2863 srgb } def
+591.92 614.71 21.90 10.97 r p3
+/bg { 0.2431 0.6902 0.4824 srgb } def
+570.01 592.77 21.90 10.97 r p3
+/bg { 0.9922 0.9059 0.1451 srgb } def
+591.92 592.77 21.90 10.97 r p3
+/bg { 0.1647 0.5882 0.5333 srgb } def
+570.01 285.64 21.90 10.97 r p3
+/bg { 0.2549 0.2824 0.5333 srgb } def
+591.92 285.64 21.90 10.97 r p3
+/bg { 0.2392 0.3490 0.5412 srgb } def
+591.92 230.80 21.90 10.97 r p3
+/bg { 0.9176 0.8941 0.1882 srgb } def
+570.01 647.61 21.90 10.97 r p3
+/bg { 0.7569 0.8667 0.2471 srgb } def
+591.92 647.61 21.90 10.97 r p3
+/bg { 0.2078 0.6784 0.4980 srgb } def
+591.92 450.17 21.90 10.97 r p3
+/Font1 findfont 11 s
+580.97 638.18 (58) .5 0 t
+580.97 528.49 (57) .5 0 t
+602.87 528.49 (33) .5 0 t
+602.87 539.46 (45) .5 0 t
+580.97 276.21 (30) .5 0 t
+602.87 276.21 (16) .5 0 t
+580.97 583.33 (45) .5 0 t
+602.87 583.33 (57) .5 0 t
+580.97 188.46 (5) .5 0 t
+602.87 188.46 (27) .5 0 t
+602.87 473.65 (41) .5 0 t
+580.97 243.30 (18) .5 0 t
+602.87 243.30 (22) .5 0 t
+602.87 605.27 (52) .5 0 t
+580.97 298.15 (12) .5 0 t
+602.87 298.15 (40) .5 0 t
+580.97 440.74 (38) .5 0 t
+580.97 703.99 (62) .5 0 t
+580.97 67.80 (3) .5 0 t
+602.87 67.80 (2) .5 0 t
+580.97 199.43 (16) .5 0 t
+580.97 462.68 (48) .5 0 t
+602.87 462.68 (32) .5 0 t
+580.97 627.21 (52) .5 0 t
+602.87 627.21 (55) .5 0 t
+580.97 122.65 (6) .5 0 t
+602.87 122.65 (8) .5 0 t
+580.97 100.71 (7) .5 0 t
+602.87 100.71 (5) .5 0 t
+580.97 429.77 (27) .5 0 t
+602.87 429.77 (48) .5 0 t
+580.97 385.90 (19) .5 0 t
+602.87 385.90 (49) .5 0 t
+580.97 693.02 (61) .5 0 t
+602.87 89.74 (4) .5 0 t
+580.97 78.77 (2) .5 0 t
+602.87 78.77 (3) .5 0 t
+580.97 56.84 (1) .5 0 t
+602.87 56.84 (1) .5 0 t
+602.87 561.40 (47) .5 0 t
+580.97 221.37 (9) .5 0 t
+602.87 221.37 (25) .5 0 t
+580.97 144.59 (17) .5 0 t
+602.87 144.59 (7) .5 0 t
+602.87 550.43 (46) .5 0 t
+602.87 484.62 (42) .5 0 t
+602.87 309.12 (26) .5 0 t
+580.97 254.27 (20) .5 0 t
+580.97 506.55 (44) .5 0 t
+580.97 363.96 (41) .5 0 t
+602.87 363.96 (23) .5 0 t
+580.97 166.52 (14) .5 0 t
+602.87 166.52 (13) .5 0 t
+602.87 265.24 (21) .5 0 t
+580.97 517.52 (46) .5 0 t
+602.87 517.52 (43) .5 0 t
+602.87 660.12 (59) .5 0 t
+580.97 495.58 (42) .5 0 t
+580.97 418.80 (39) .5 0 t
+602.87 418.80 (34) .5 0 t
+580.97 572.37 (50) .5 0 t
+580.97 331.05 (31) .5 0 t
+602.87 331.05 (24) .5 0 t
+580.97 396.87 (37) .5 0 t
+602.87 396.87 (31) .5 0 t
+602.87 682.05 (60) .5 0 t
+580.97 133.62 (4) .5 0 t
+602.87 133.62 (10) .5 0 t
+602.87 111.68 (6) .5 0 t
+602.87 342.02 (29) .5 0 t
+580.97 352.99 (29) .5 0 t
+580.97 671.08 (59) .5 0 t
+580.97 320.09 (26) .5 0 t
+580.97 374.93 (32) .5 0 t
+580.97 155.55 (8) .5 0 t
+602.87 155.55 (17) .5 0 t
+580.97 177.49 (10) .5 0 t
+602.87 177.49 (19) .5 0 t
+580.97 210.40 (21) .5 0 t
+602.87 210.40 (12) .5 0 t
+580.97 407.83 (35) .5 0 t
+602.87 616.24 (53) .5 0 t
+580.97 594.30 (40) .5 0 t
+602.87 594.30 (62) .5 0 t
+580.97 287.18 (33) .5 0 t
+602.87 287.18 (14) .5 0 t
+602.87 232.34 (18) .5 0 t
+580.97 649.15 (60) .5 0 t
+602.87 649.15 (56) .5 0 t
+602.87 451.71 (39) .5 0 t
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+/Font1 findfont 9 s
+0.3020 0.3020 0.3020 srgb
+331.81 57.55 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Bacilli; o__Lactobacillales) tb gr
+134.17 68.52 (k__Bacter) 0 ta
+0.135 (ia; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__) tb gr
+235.76 79.49 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Bacilli; o__Gemellales; f__Gemellaceae; g__; s__) tb gr
+275.29 90.46 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Bacilli; o__Gemellales; f__Gemellaceae) tb gr
+97.16 101.43 (k__Bacter) 0 ta
+0.135 (ia; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Pre) tb
+-0.270 (v) tb
+-0.225 (otellaceae; g__Pre) tb
+-0.270 (v) tb
+-0.225 (otella; s__nanceiensis) tb gr
+116.67 112.40 (k__Bacter) 0 ta
+0.135 (ia; p__Fusobacter) tb
+0.135 (ia; c__Fusobacter) tb
+0.135 (iia; o__Fusobacter) tb
+0.135 (iales; f__Leptotr) tb
+0.135 (ichiaceae; g__Leptotr) tb
+0.135 (ichia; s__) tb gr
+81.65 123.37 (k__Bacter) 0 ta
+0.135 (ia; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Pre) tb
+-0.270 (v) tb
+-0.225 (otellaceae; g__Pre) tb
+-0.270 (v) tb
+-0.225 (otella; s__melaninogenica) tb gr
+98.18 134.33 (k__Bacter) 0 ta
+0.135 (ia; p__Fusobacter) tb
+0.135 (ia; c__Fusobacter) tb
+0.135 (iia; o__Fusobacter) tb
+0.135 (iales; f__Fusobacter) tb
+0.135 (iaceae; g__Fusobacter) tb
+0.135 (ium; s__) tb gr
+145.71 145.30 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__) tb gr
+30.65 156.27 (k__Bacter) 0 ta
+0.135 (ia; p__Proteobacter) tb
+0.135 (ia; c__Epsilonproteobacter) tb
+0.135 (ia; o__Camp) tb
+-0.270 (ylobacter) tb
+-0.090 (ales; f__Camp) tb
+-0.270 (ylobacter) tb
+-0.090 (aceae; g__Camp) tb
+-0.270 (ylobacter) tb
+0.270 (; s__) tb gr
+168.24 167.24 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__Lachnospir) tb
+-0.090 (aceae; g__Mor) tb
+0.270 (y) tb
+-0.180 (ella; s__) tb gr
+327.79 178.21 (k__Bacter) 0 ta
+0.135 (ia; p__Proteobacter) tb
+0.135 (ia; c__Gammaproteobacter) tb
+0.135 (ia) tb gr
+75.68 189.18 (k__Bacter) 0 ta
+0.135 (ia; p__Actinobacter) tb
+0.135 (ia; c__Actinobacter) tb
+0.135 (ia; o__Actinom) tb
+-0.135 (ycetales; f__Micrococcaceae; g__Rothia; s__m) tb
+-0.090 (ucilaginosa) tb gr
+97.67 200.15 (k__Bacter) 0 ta
+0.135 (ia; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__unif) tb
+-0.270 (or) tb
+0.225 (mis) tb gr
+142.19 211.12 (k__Bacter) 0 ta
+0.135 (ia; p__Proteobacter) tb
+0.135 (ia; c__Gammaproteobacter) tb
+0.135 (ia; o__Enterobacter) tb
+0.135 (iales; f__Enterobacter) tb
+0.135 (iaceae) tb gr
+165.22 222.08 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus) tb gr
+381.28 233.05 (k__Bacter) 0 ta
+0.135 (ia; p__SR1; c__; o__; f__; g__; s__) tb gr
+105.19 244.02 (k__Bacter) 0 ta
+0.135 (ia; p__Actinobacter) tb
+0.135 (ia; c__Cor) tb
+0.135 (iobacter) tb
+0.135 (iia; o__Cor) tb
+0.135 (iobacter) tb
+0.135 (iales; f__Cor) tb
+0.135 (iobacter) tb
+0.135 (iaceae; g__Atopobium; s__) tb gr
+241.77 254.99 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__Lachnospir) tb
+-0.090 (aceae) tb gr
+150.74 265.96 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__Lachnospir) tb
+-0.090 (aceae; g__Or) tb
+0.135 (ibacter) tb
+0.135 (ium; s__) tb gr
+108.19 276.93 (k__Bacter) 0 ta
+0.135 (ia; p__Actinobacter) tb
+0.135 (ia; c__Actinobacter) tb
+0.135 (ia; o__Actinom) tb
+-0.135 (ycetales; f__Micrococcaceae; g__Rothia; s__aer) tb
+0.135 (ia) tb gr
+18.13 287.90 (k__Bacter) 0 ta
+0.135 (ia; p__Proteobacter) tb
+0.135 (ia; c__Gammaproteobacter) tb
+0.135 (ia; o__P) tb
+-0.360 (asteurellales; f__P) tb
+-0.360 (asteurellaceae; g__Haemophilus; s__par) tb
+-0.090 (ainfluenzae) tb gr
+116.66 298.87 (k__Bacter) 0 ta
+0.135 (ia; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__[P) tb
+-0.360 (ar) tb
+-0.090 (apre) tb
+-0.270 (v) tb
+-0.225 (otellaceae]; g__[Pre) tb
+-0.270 (v) tb
+-0.225 (otella]; s__) tb gr
+135.74 309.83 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__[Mogibacter) tb
+0.135 (iaceae]; g__Mogibacter) tb
+0.135 (ium; s__) tb gr
+140.21 320.80 (k__Bacter) 0 ta
+0.135 (ia; p__Proteobacter) tb
+0.135 (ia; c__Betaproteobacter) tb
+0.135 (ia; o__Neisser) tb
+0.135 (iales; f__Neisser) tb
+0.135 (iaceae; g__Neisser) tb
+0.135 (ia) tb gr
+144.74 331.77 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__V) tb
+-0.720 (eillonellaceae; g__V) tb
+-0.720 (eillonella; s__dispar) tb gr
+347.51 342.74 (k__Bacter) 0 ta
+0.135 (ia; p__GN02; c__BD1-5; o__; f__; g__; s__) tb gr
+94.65 353.71 (k__Bacter) 0 ta
+0.135 (ia; p__Proteobacter) tb
+0.135 (ia; c__Betaproteobacter) tb
+0.135 (ia; o__Bur) tb
+0.135 (kholder) tb
+0.135 (iales; f__Bur) tb
+0.135 (kholder) tb
+0.135 (iaceae; g__Lautropia; s__) tb gr
+90.69 364.68 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__Lachnospir) tb
+-0.090 (aceae; g__Lachnoanaerobaculum; s__or) tb
+-0.090 (ale) tb gr
+120.70 375.65 (k__Bacter) 0 ta
+0.135 (ia; p__Proteobacter) tb
+0.135 (ia; c__Betaproteobacter) tb
+0.135 (ia; o__Neisser) tb
+0.135 (iales; f__Neisser) tb
+0.135 (iaceae; g__Neisser) tb
+0.135 (ia; s__) tb gr
+156.20 386.62 (k__Bacter) 0 ta
+0.135 (ia; p__Bacteroidetes; c__Fla) tb
+-0.180 (v) tb
+-0.225 (obacter) tb
+0.135 (iia; o__Fla) tb
+-0.180 (v) tb
+-0.225 (obacter) tb
+0.135 (iales; f__[W) tb
+-0.270 (eeksellaceae]; g__; s__) tb gr
+139.73 397.58 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__V) tb
+-0.720 (eillonellaceae; g__V) tb
+-0.720 (eillonella; s__par) tb
+0.270 (vula) tb gr
+169.21 408.55 (k__Bacter) 0 ta
+0.135 (ia; p__Proteobacter) tb
+0.135 (ia; c__Gammaproteobacter) tb
+0.135 (ia; o__P) tb
+-0.360 (asteurellales; f__P) tb
+-0.360 (asteurellaceae) tb gr
+155.23 419.52 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__V) tb
+-0.720 (eillonellaceae; g__Selenomonas; s__) tb gr
+116.17 430.49 (k__Bacter) 0 ta
+0.135 (ia; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Pre) tb
+-0.270 (v) tb
+-0.225 (otellaceae; g__Pre) tb
+-0.270 (v) tb
+-0.225 (otella; s__pallens) tb gr
+81.14 441.46 (k__Bacter) 0 ta
+0.135 (ia; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__[P) tb
+-0.360 (ar) tb
+-0.090 (apre) tb
+-0.270 (v) tb
+-0.225 (otellaceae]; g__[Pre) tb
+-0.270 (v) tb
+-0.225 (otella]; s__tanner) tb
+-0.090 (ae) tb gr
+289.76 452.43 (k__Bacter) 0 ta
+0.135 (ia; p__T) tb
+-1.080 (ener) tb
+0.135 (icutes; c__Mollicutes; o__RF39; f__; g__; s__) tb gr
+92.16 463.40 (k__Bacter) 0 ta
+0.135 (ia; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__P) tb
+-0.450 (or) tb
+0.270 (ph) tb
+-0.270 (yromonadaceae; g__P) tb
+-0.450 (or) tb
+0.270 (ph) tb
+-0.270 (yromonas; s__) tb gr
+148.21 474.37 (k__Bacter) 0 ta
+0.135 (ia; p__Actinobacter) tb
+0.135 (ia; c__Cor) tb
+0.135 (iobacter) tb
+0.135 (iia; o__Cor) tb
+0.135 (iobacter) tb
+0.135 (iales; f__Cor) tb
+0.135 (iobacter) tb
+0.135 (iaceae; g__; s__) tb gr
+194.75 485.33 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__[Mogibacter) tb
+0.135 (iaceae]; g__; s__) tb gr
+155.23 496.30 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__V) tb
+-0.720 (eillonellaceae; g__Megasphaer) tb
+-0.090 (a; s__) tb gr
+176.76 507.27 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__Lachnospir) tb
+-0.090 (aceae; g__Clostr) tb
+0.135 (idium) tb gr
+137.72 518.24 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__Lachnospir) tb
+-0.090 (aceae; g__Roseb) tb
+-0.180 (ur) tb
+0.135 (ia; s__f) tb
+-0.270 (aecis) tb gr
+70.17 529.21 (k__Bacter) 0 ta
+0.135 (ia; p__Actinobacter) tb
+0.135 (ia; c__Actinobacter) tb
+0.135 (ia; o__Actinom) tb
+-0.135 (ycetales; f__Cor) tb
+0.270 (ynebacter) tb
+0.135 (iaceae; g__Cor) tb
+0.270 (ynebacter) tb
+0.135 (ium; s__) tb gr
+44.66 540.18 (k__Bacter) 0 ta
+0.135 (ia; p__Actinobacter) tb
+0.135 (ia; c__Actinobacter) tb
+0.135 (ia; o__Actinom) tb
+-0.135 (ycetales; f__Cor) tb
+0.270 (ynebacter) tb
+0.135 (iaceae; g__Cor) tb
+0.270 (ynebacter) tb
+0.135 (ium; s__dur) tb
+0.135 (um) tb gr
+270.78 551.15 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__; g__; s__) tb gr
+238.26 562.11 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Bacilli; o__Lactobacillales; f__Car) tb
+0.225 (nobacter) tb
+0.135 (iaceae) tb gr
+169.24 573.08 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__V) tb
+-0.720 (eillonellaceae; g__V) tb
+-0.720 (eillonella; s__) tb gr
+76.67 584.05 (k__Bacter) 0 ta
+0.135 (ia; p__Actinobacter) tb
+0.135 (ia; c__Actinobacter) tb
+0.135 (ia; o__Actinom) tb
+-0.135 (ycetales; f__Micrococcaceae; g__Rothia; s__dentocar) tb
+0.135 (iosa) tb gr
+40.14 595.02 (k__Bacter) 0 ta
+0.135 (ia; p__Proteobacter) tb
+0.135 (ia; c__Gammaproteobacter) tb
+0.135 (ia; o__P) tb
+-0.360 (asteurellales; f__P) tb
+-0.360 (asteurellaceae; g__Aggregatibacter) tb
+0.270 (; s__segnis) tb gr
+82.69 605.99 (k__Bacter) 0 ta
+0.135 (ia; p__Actinobacter) tb
+0.135 (ia; c__Cor) tb
+0.135 (iobacter) tb
+0.135 (iia; o__Cor) tb
+0.135 (iobacter) tb
+0.135 (iales; f__Cor) tb
+0.135 (iobacter) tb
+0.135 (iaceae; g__Atopobium; s__r) tb
+0.135 (imae) tb gr
+94.17 616.96 (k__Bacter) 0 ta
+0.135 (ia; p__Proteobacter) tb
+0.135 (ia; c__Gammaproteobacter) tb
+0.135 (ia; o__P) tb
+-0.360 (asteurellales; f__P) tb
+-0.360 (asteurellaceae; g__Actinobacillus) tb gr
+144.68 627.93 (k__Bacter) 0 ta
+0.135 (ia; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Pre) tb
+-0.270 (v) tb
+-0.225 (otellaceae; g__Pre) tb
+-0.270 (v) tb
+-0.225 (otella; s__) tb gr
+94.68 638.90 (k__Bacter) 0 ta
+0.135 (ia; p__Actinobacter) tb
+0.135 (ia; c__Actinobacter) tb
+0.135 (ia; o__Actinom) tb
+-0.135 (ycetales; f__Actinom) tb
+-0.135 (ycetaceae; g__Actinom) tb
+-0.135 (yces; s__) tb gr
+52.20 649.86 (k__Bacter) 0 ta
+0.135 (ia; p__T) tb
+-1.080 (ener) tb
+0.135 (icutes; c__Mollicutes; o__Mycoplasmatales; f__Mycoplasmataceae; g__Mycoplasma; s__haemomin) tb
+-0.090 (utum) tb gr
+177.76 660.83 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Clostr) tb
+0.135 (idia; o__Clostr) tb
+0.135 (idiales; f__V) tb
+-0.720 (eillonellaceae; g__Dialister) tb
+0.270 (; s__) tb gr
+197.73 671.80 (k__Bacter) 0 ta
+0.135 (ia; p__Proteobacter) tb
+0.135 (ia; c__Betaproteobacter) tb
+0.135 (ia; o__Neisser) tb
+0.135 (iales; f__Neisser) tb
+0.135 (iaceae) tb gr
+90.73 682.77 (k__Bacter) 0 ta
+0.135 (ia; p__Fir) tb
+0.225 (micutes; c__Er) tb
+0.270 (ysipelotr) tb
+0.135 (ichi; o__Er) tb
+0.270 (ysipelotr) tb
+0.135 (ichales; f__Er) tb
+0.270 (ysipelotr) tb
+0.135 (ichaceae; g__Bulleidia; s__moorei) tb gr
+100.17 693.74 (k__Bacter) 0 ta
+0.135 (ia; p__Bacteroidetes; c__Fla) tb
+-0.180 (v) tb
+-0.225 (obacter) tb
+0.135 (iia; o__Fla) tb
+-0.180 (v) tb
+-0.225 (obacter) tb
+0.135 (iales; f__Fla) tb
+-0.180 (v) tb
+-0.225 (obacter) tb
+0.135 (iaceae; g__Capnocytophaga) tb gr
+153.68 704.71 (k__Bacter) 0 ta
+0.135 (ia; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides) tb gr
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.2000 0.2000 0.2000 srgb
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+565.08 60.78 m
+2.74 0 l
+o
+np
+565.08 71.75 m
+2.74 0 l
+o
+np
+565.08 82.72 m
+2.74 0 l
+o
+np
+565.08 93.69 m
+2.74 0 l
+o
+np
+565.08 104.66 m
+2.74 0 l
+o
+np
+565.08 115.63 m
+2.74 0 l
+o
+np
+565.08 126.60 m
+2.74 0 l
+o
+np
+565.08 137.57 m
+2.74 0 l
+o
+np
+565.08 148.53 m
+2.74 0 l
+o
+np
+565.08 159.50 m
+2.74 0 l
+o
+np
+565.08 170.47 m
+2.74 0 l
+o
+np
+565.08 181.44 m
+2.74 0 l
+o
+np
+565.08 192.41 m
+2.74 0 l
+o
+np
+565.08 203.38 m
+2.74 0 l
+o
+np
+565.08 214.35 m
+2.74 0 l
+o
+np
+565.08 225.32 m
+2.74 0 l
+o
+np
+565.08 236.28 m
+2.74 0 l
+o
+np
+565.08 247.25 m
+2.74 0 l
+o
+np
+565.08 258.22 m
+2.74 0 l
+o
+np
+565.08 269.19 m
+2.74 0 l
+o
+np
+565.08 280.16 m
+2.74 0 l
+o
+np
+565.08 291.13 m
+2.74 0 l
+o
+np
+565.08 302.10 m
+2.74 0 l
+o
+np
+565.08 313.07 m
+2.74 0 l
+o
+np
+565.08 324.03 m
+2.74 0 l
+o
+np
+565.08 335.00 m
+2.74 0 l
+o
+np
+565.08 345.97 m
+2.74 0 l
+o
+np
+565.08 356.94 m
+2.74 0 l
+o
+np
+565.08 367.91 m
+2.74 0 l
+o
+np
+565.08 378.88 m
+2.74 0 l
+o
+np
+565.08 389.85 m
+2.74 0 l
+o
+np
+565.08 400.82 m
+2.74 0 l
+o
+np
+565.08 411.78 m
+2.74 0 l
+o
+np
+565.08 422.75 m
+2.74 0 l
+o
+np
+565.08 433.72 m
+2.74 0 l
+o
+np
+565.08 444.69 m
+2.74 0 l
+o
+np
+565.08 455.66 m
+2.74 0 l
+o
+np
+565.08 466.63 m
+2.74 0 l
+o
+np
+565.08 477.60 m
+2.74 0 l
+o
+np
+565.08 488.56 m
+2.74 0 l
+o
+np
+565.08 499.53 m
+2.74 0 l
+o
+np
+565.08 510.50 m
+2.74 0 l
+o
+np
+565.08 521.47 m
+2.74 0 l
+o
+np
+565.08 532.44 m
+2.74 0 l
+o
+np
+565.08 543.41 m
+2.74 0 l
+o
+np
+565.08 554.38 m
+2.74 0 l
+o
+np
+565.08 565.35 m
+2.74 0 l
+o
+np
+565.08 576.31 m
+2.74 0 l
+o
+np
+565.08 587.28 m
+2.74 0 l
+o
+np
+565.08 598.25 m
+2.74 0 l
+o
+np
+565.08 609.22 m
+2.74 0 l
+o
+np
+565.08 620.19 m
+2.74 0 l
+o
+np
+565.08 631.16 m
+2.74 0 l
+o
+np
+565.08 642.13 m
+2.74 0 l
+o
+np
+565.08 653.10 m
+2.74 0 l
+o
+np
+565.08 664.06 m
+2.74 0 l
+o
+np
+565.08 675.03 m
+2.74 0 l
+o
+np
+565.08 686.00 m
+2.74 0 l
+o
+np
+565.08 696.97 m
+2.74 0 l
+o
+np
+565.08 707.94 m
+2.74 0 l
+o
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.2000 0.2000 0.2000 srgb
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+580.97 51.46 m
+0 2.74 l
+o
+np
+602.87 51.46 m
+0 2.74 l
+o
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+/Font1 findfont 9 s
+0.3020 0.3020 0.3020 srgb
+587.43 18.27 (W) 90 ta
+-0.270 (omen) tb gr
+609.33 49.27 (Men) 1 90 t
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+/Font1 findfont 11 s
+0 0 0 srgb
+591.92 7.90 (Dataset) .5 0 t
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+/Font1 findfont 11 s
+0 0 0 srgb
+13.38 369.08 (T) 90 ta
+-1.320 (axon) tb gr
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+/bg { 1 1 1 srgb } def
+626.97 327.78 87.55 113.16 r p2
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+gsave
+632.45 333.26 translate
+17.28 86.40 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 17 def
+  /Height 86 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [17 0 0 -86 0 86] def
+end
+image
+fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725fde725f7e628f7e628f7e628f7e628f7e628f7e628f7e628f7e628f7e628f7e628f7e628f7e628f7e628f7e628f7e628f7e628f7e628f1e52bf1e52bf1e52bf1e52bf1e52bf1e52bf1e52bf1e52bf1e52bf1e52bf1e52bf1e52bf1e52bf1e52bf1e52bf1e52bf1e52beae42feae42feae42feae42feae42feae42feae42feae42feae42feae42feae42feae42feae42feae42feae42feae42feae42fe2e333e2e333e2e333e2e333e2e333e2e333e2e333e2e333e2e333e2e333e2e333e2e333e2e333e2e333e2e333e2e333e2e333dae137dae137dae137dae137dae137dae137dae137dae137dae137dae137dae137dae137dae137dae137dae137dae137dae137d4e039d4e039d4e039d4e039d4e039d4e039d4e039d4e039d4e039d4e039d4e039d4e039d4e039d4e039d4e039d4e039d4e039cbdf3ccbdf3ccbdf3ccbdf3ccbdf3ccbdf3ccbdf3ccbdf3ccbdf3ccbdf3ccbdf3ccbdf3ccbdf3ccbdf3ccbdf3ccbdf3ccbdf3cc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fc3dd3fbddc41bddc41bddc41bddc41bddc41bddc41bddc41bddc41bddc41bddc41bddc41bddc41bddc41bddc41bddc41bddc41bddc41b4db43b4db43b4db43b4db43b4db43b4db43b4db43b4db43b4db43b4db43b4db43b4db43b4db43b4db43b4db43b4db43b4db43acd946acd946acd946acd946acd946acd946acd946acd946acd946acd946acd946acd946acd946acd946acd946acd946acd946a3d848a3d848a3d848a3d848a3d848a3d848a3d848a3d848a3d848a3d848a3d848a3d848a3d848a3d848a3d848a3d848a3d8489cd6499cd6499cd6499cd6499cd6499cd6499cd6499cd6499cd6499cd6499cd6499cd6499cd6499cd6499cd6499cd6499cd64993d54c93d54c93d54c93d54c93d54c93d54c93d54c93d54c93d54c93d54c93d54c93d54c93d54c93d54c93d54c93d54c93d54c8bd34e8bd34e8bd34e8bd34e8bd34e8bd34e8bd34e8bd34e8bd34e8bd34e8bd34e8bd34e8bd34e8bd34e8bd34e8bd34e8bd34e84d25084d25084d25084d25084d25084d25084d25084d25084d25084d25084d25084d25084d25084d25084d25084d25084d2507bd0537bd0537bd0537bd0537bd0537bd0537bd0537bd0537bd0537bd0537bd0537bd0537bd0537bd0537bd0537bd0537bd05375ce5675ce5675ce5675ce5675ce5675ce5675ce5675ce5675ce5675ce5675ce5675ce5675ce5675ce5675ce5675ce5675ce5671cb5a71cb5a71cb5a71cb5a71cb5a71cb5a71cb5a71cb5a71cb5a71cb5a71cb5a71cb5a71cb5a71cb5a71cb5a71cb5a71cb5a6ec95d6ec95d6ec95d6ec95d6ec95d6ec95d6ec95d6ec95d6ec95d6ec95d6ec95d6ec95d6ec95d6ec95d6ec95d6ec95d6ec95d6ac6616ac6616ac6616ac6616ac6616ac6616ac6616ac6616ac6616ac6616ac6616ac6616ac6616ac6616ac6616ac6616ac66166c36566c36566c36566c36566c36566c36566c36566c36566c36566c36566c36566c36566c36566c36566c36566c36566c36561c16861c16861c16861c16861c16861c16861c16861c16861c16861c16861c16861c16861c16861c16861c16861c16861c1685dbf6b5dbf6b5dbf6b5dbf6b5dbf6b5dbf6b5dbf6b5dbf6b5dbf6b5dbf6b5dbf6b5dbf6b5dbf6b5dbf6b5dbf6b5dbf6b5dbf6b58bc6e58bc6e58bc6e58bc6e58bc6e58bc6e58bc6e58bc6e58bc6e58bc6e58bc6e58bc6e58bc6e58bc6e58bc6e58bc6e58bc6e53b97153b97153b97153b97153b97153b97153b97153b97153b97153b97153b97153b97153b97153b97153b97153b97153b9714eb7734eb7734eb7734eb7734eb7734eb7734eb7734eb7734eb7734eb7734eb7734eb7734eb7734eb7734eb7734eb7734eb77348b47648b47648b47648b47648b47648b47648b47648b47648b47648b47648b47648b47648b47648b47648b47648b47648b47642b17942b17942b17942b17942b17942b17942b17942b17942b17942b17942b17942b17942b17942b17942b17942b17942b1793caf7c3caf7c3caf7c3caf7c3caf7c3caf7c3caf7c3caf7c3caf7c3caf7c3caf7c3caf7c3caf7c3caf7c3caf7c3caf7c3caf7c37ad7e37ad7e37ad7e37ad7e37ad7e37ad7e37ad7e37ad7e37ad7e37ad7e37ad7e37ad7e37ad7e37ad7e37ad7e37ad7e37ad7e32aa8032aa8032aa8032aa8032aa8032aa8032aa8032aa8032aa8032aa8032aa8032aa8032aa8032aa8032aa8032aa8032aa802da7822da7822da7822da7822da7822da7822da7822da7822da7822da7822da7822da7822da7822da7822da7822da7822da78229a58429a58429a58429a58429a58429a58429a58429a58429a58429a58429a58429a58429a58429a58429a58429a58429a58425a28525a28525a28525a28525a28525a28525a28525a28525a28525a28525a28525a28525a28525a28525a28525a28525a285279f86279f86279f86279f86279f86279f86279f86279f86279f86279f86279f86279f86279f86279f86279f86279f86279f86289c87289c87289c87289c87289c87289c87289c87289c87289c87289c87289c87289c87289c87289c87289c87289c87289c872999872999872999872999872999872999872999872999872999872999872999872999872999872999872999872999872999872a96882a96882a96882a96882a96882a96882a96882a96882a96882a96882a96882a96882a96882a96882a96882a96882a96882b93892b93892b93892b93892b93892b93892b93892b93892b93892b93892b93892b93892b93892b93892b93892b93892b93892b908a2b908a2b908a2b908a2b908a2b908a2b908a2b908a2b908a2b908a2b908a2b908a2b908a2b908a2b908a2b908a2b908a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2b8d8a2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c8a8b2c878b2c878b2c878b2c878b2c878b2c878b2c878b2c878b2c878b2c878b2c878b2c878b2c878b2c878b2c878b2c878b2c878b2c858c2c858c2c858c2c858c2c858c2c858c2c858c2c858c2c858c2c858c2c858c2c858c2c858c2c858c2c858c2c858c2c858c2b828c2b828c2b828c2b828c2b828c2b828c2b828c2b828c2b828c2b828c2b828c2b828c2b828c2b828c2b828c2b828c2b828c2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2b7f8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2c7b8d2d798d2d798d2d798d2d798d2d798d2d798d2d798d2d798d2d798d2d798d2d798d2d798d2d798d2d798d2d798d2d798d2d798d2e768d2e768d2e768d2e768d2e768d2e768d2e768d2e768d2e768d2e768d2e768d2e768d2e768d2e768d2e768d2e768d2e768d30728d30728d30728d30728d30728d30728d30728d30728d30728d30728d30728d30728d30728d30728d30728d30728d30728d31708d31708d31708d31708d31708d31708d31708d31708d31708d31708d31708d31708d31708d31708d31708d31708d31708d336d8d336d8d336d8d336d8d336d8d336d8d336d8d336d8d336d8d336d8d336d8d336d8d336d8d336d8d336d8d336d8d336d8d35698c35698c35698c35698c35698c35698c35698c35698c35698c35698c35698c35698c35698c35698c35698c35698c35698c37668c37668c37668c37668c37668c37668c37668c37668c37668c37668c37668c37668c37668c37668c37668c37668c37668c39638b39638b39638b39638b39638b39638b39638b39638b39638b39638b39638b39638b39638b39638b39638b39638b39638b3a608b3a608b3a608b3a608b3a608b3a608b3a608b3a608b3a608b3a608b3a608b3a608b3a608b3a608b3a608b3a608b3a608b3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3b5c8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3c5a8a3d57893d57893d57893d57893d57893d57893d57893d57893d57893d57893d57893d57893d57893d57893d57893d57893d57893e53893e53893e53893e53893e53893e53893e53893e53893e53893e53893e53893e53893e53893e53893e53893e53893e53893f50883f50883f50883f50883f50883f50883f50883f50883f50883f50883f50883f50883f50883f50883f50883f50883f5088404d88404d88404d88404d88404d88404d88404d88404d88404d88404d88404d88404d88404d88404d88404d88404d88404d88404a87404a87404a87404a87404a87404a87404a87404a87404a87404a87404a87404a87404a87404a87404a87404a87404a87414686414686414686414686414686414686414686414686414686414686414686414686414686414686414686414686414686424384424384424384424384424384424384424384424384424384424384424384424384424384424384424384424384424384434082434082434082434082434082434082434082434082434082434082434082434082434082434082434082434082434082433d7f433d7f433d7f433d7f433d7f433d7f433d7f433d7f433d7f433d7f433d7f433d7f433d7f433d7f433d7f433d7f433d7f44397c44397c44397c44397c44397c44397c44397c44397c44397c44397c44397c44397c44397c44397c44397c44397c44397c443679443679443679443679443679443679443679443679443679443679443679443679443679443679443679443679443679453276453276453276453276453276453276453276453276453276453276453276453276453276453276453276453276453276452f72452f72452f72452f72452f72452f72452f72452f72452f72452f72452f72452f72452f72452f72452f72452f72452f72462b6f462b6f462b6f462b6f462b6f462b6f462b6f462b6f462b6f462b6f462b6f462b6f462b6f462b6f462b6f462b6f462b6f46286c46286c46286c46286c46286c46286c46286c46286c46286c46286c46286c46286c46286c46286c46286c46286c46286c462469462469462469462469462469462469462469462469462469462469462469462469462469462469462469462469462469451f66451f66451f66451f66451f66451f66451f66451f66451f66451f66451f66451f66451f66451f66451f66451f66451f66451c63451c63451c63451c63451c63451c63451c63451c63451c63451c63451c63451c63451c63451c63451c63451c63451c6345186045186045186045186045186045186045186045186045186045186045186045186045186045186045186045186045186045125d45125d45125d45125d45125d45125d45125d45125d45125d45125d45125d45125d45125d45125d45125d45125d45125d440c5a440c5a440c5a440c5a440c5a440c5a440c5a440c5a440c5a440c5a440c5a440c5a440c5a440c5a440c5a440c5a440c5a440757440757440757440757440757440757440757440757440757440757440757440757440757440757440757440757440757440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154440154>
+grestore
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+/Font1 findfont 9 s
+0 0 0 srgb
+655.21 357.76 (20) 0 0 t
+655.21 384.67 (40) 0 0 t
+655.21 411.58 (60) 0 0 t
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+/Font1 findfont 11 s
+0 0 0 srgb
+632.45 426.35 (F) 0 ta
+-0.330 (eature r) tb
+-0.110 (anking) tb gr
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+1 1 1 srgb
+0.38 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+632.45 360.99 m
+3.45 0 l
+o
+np
+632.45 387.90 m
+3.45 0 l
+o
+np
+632.45 414.81 m
+3.45 0 l
+o
+np
+646.27 360.99 m
+3.46 0 l
+o
+np
+646.27 387.90 m
+3.46 0 l
+o
+np
+646.27 414.81 m
+3.46 0 l
+o
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+0.00 0.00 720.00 720.00 cl
+ep
+%%Trailer
+%%Pages: 1
+%%EOF

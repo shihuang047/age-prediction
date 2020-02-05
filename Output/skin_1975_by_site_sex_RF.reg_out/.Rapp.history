@@ -1,0 +1,15 @@
+load("/Users/huangshi/MyProjects/CMI-IBM/age-prediction/Output/skin_1975_by_site_sex_RF.reg_out/skin_1975_rf_reg_all_tuned_group5fold_cv.rds")
+rf_fit
+rf_fit_group
+~/MyProjects/CMI-IBM/age-prediction/Output/skin_1975_by_site_sex_RF.reg_out/skin_1975-rf_reg_all_tuned_5fold_cv.rds
+load("~/MyProjects/CMI-IBM/age-prediction/Output/skin_1975_by_site_sex_RF.reg_out/skin_1975-rf_reg_all_tuned_5fold_cv.rds")
+rf_fit
+summary(rf_fit)
+rf_fit$results
+load("~/MyProjects/CMI-IBM/age-prediction/Output/oral_2550_by_sex_RF.reg_out/oral_2550-rf_reg_all_tuned_5fold_cv.rds")
+rf_ft
+rf_fit
+rf_fit$results
+load("~/MyProjects/CMI-IBM/age-prediction/Output/gut_4434_by_cohort_sex_RF.reg_out/gut_4434-rf_reg_all_tuned_5fold_cv.rds")
+rf_fit
+rf_fit$results
