@@ -4,6 +4,8 @@ Human skin, oral, and gut microbiomes predict chronological age
 This study performed Random Forest regression analyses of human microbiota from multiple body sites (gut, mouth and skin).
 This repository provided all source data and codes for generation of all results in the manuscript. Furthermore, in output directories, we also provided additional exploratory analysis results for a better understanding of our microbiota-based models for age prediction.
 
+* Huang S, Haiminen N, Carrieri A-P, Hu R, Jiang L, Parida L, Russell B, Allaband C, Zarrinpar A, Vázquez-Baeza Y, Belda-Ferre P, Zhou H, Kim H-C, Swafford AD, Knight R, Xu ZZ. 2020. Human skin, oral, and gut microbiomes predict chronological age. mSystems 5:e00630-19. https://doi.org/10.1128/mSystems.00630-19.
+
 
 ## Data source
 ### Qiita study IDs involved in the meta-analysis: 
