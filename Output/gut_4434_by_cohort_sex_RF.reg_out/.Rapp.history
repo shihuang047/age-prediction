@@ -1,0 +1,4 @@
+load("/Users/huangshi/MyProjects/CMI-IBM/age-prediction/Output/gut_4434_by_cohort_sex_RF.reg_out/gut_4434-rf_reg_all_tuned_5fold_cv.rds")
+rf_fit
+summary(rf_fit)
+rf_fit$results
