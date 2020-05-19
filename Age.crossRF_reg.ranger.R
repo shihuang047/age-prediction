@@ -112,13 +112,13 @@ cat("The number of variables : ", ncol(df_k) ,"\n")
 df_k<-df_k[,which(apply(df_k,2,var)!=0)]
 cat("The number of fitlered variables (removed variables with zero variance) : ", ncol(df_k) ,"\n")
 #-------------------------------filtering taxa with X% zero values
-Zero.p<-0.995
+Zero.p<-0.999
 df_k<-df_k[,which(colSums(df_k==0)<Zero.p*nrow(df_k))]
 cat("The number of variables (removed variables containing over ", Zero.p," zero) in training data: ", ncol(df_k) ,"\n")
 
-#sink(paste(outpath, "skin_1975.norm.filtered.tsv", sep=""))
-#cat("SampleID\t"); write.table(df_k, sep="\t", quote = FALSE, row.names = TRUE)
-#sink(NULL)
+# sink(paste(outpath, "gut_4434.norm.filtered_prev0.001.tsv", sep=""))
+# cat("SampleID\t"); write.table(df_k, sep="\t", quote = FALSE, row.names = TRUE)
+# sink(NULL)
 #-------------------------------
 # rf_reg using all datasets
 #-------------------------------
